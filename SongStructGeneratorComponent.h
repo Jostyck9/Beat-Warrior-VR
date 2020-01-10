@@ -11,6 +11,8 @@ class USongStructGeneratorComponent : public UActorComponent
 
 public:	
   USongStructGeneratorComponent();
+  
+  FSongStruct GenerateStructFromJson(FString Path);
 
 private:
   void GenerateStructFromJson(FSongStruct SongStruct, TSharedPtr<FJsonObject> JsonObject);
