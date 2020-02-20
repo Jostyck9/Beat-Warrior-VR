@@ -26,6 +26,7 @@ public:
 	int loadSoundFromMemory(char* memoryPtr, unsigned int memorySize);
 	void playSound();
 	void pauseSound(bool unPause = false);
+	bool isPlaying();
 
 private:
 	FMOD::System* _system;

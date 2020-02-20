@@ -61,6 +61,14 @@ void SoundManager_Fmod::playSound()
 	_system->playSound(_sound, 0, false, &_channel);
 }
 
+bool SoundManager_Fmod::isPlaying()
+{
+	bool res = false;
+
+	_channel->isPlaying(&res);
+	return (res);
+}
+
 void SoundManager_Fmod::pauseSound(bool unPause)
 {
 	bool isPaused;

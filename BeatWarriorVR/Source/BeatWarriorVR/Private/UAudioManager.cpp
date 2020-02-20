@@ -65,3 +65,8 @@ void UAudioManager::setSongName(FString name)
 {
 	currentSongName = FPaths::ProjectContentDir() + name;
 }
+
+bool UAudioManager::isPlaying()
+{
+	return _soundManager->isPlaying();
+}

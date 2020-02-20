@@ -32,6 +32,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void setSongName(FString name);
 
+	UFUNCTION(BlueprintCallable)
+		bool isPlaying();
+
 	UAudioManager();
 	~UAudioManager();
 
