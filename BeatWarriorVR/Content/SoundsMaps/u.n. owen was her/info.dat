@@ -1,0 +1,88 @@
+{
+  "_version": "2.0.0",
+  "_songName": "U.N. Owen was Her?",
+  "_songSubName": "",
+  "_songAuthorName": "Touhou 06 - Embodiment of Scarlet Devil",
+  "_levelAuthorName": "TheFirstArcent",
+  "_beatsPerMinute": 155,
+  "_songTimeOffset": 0,
+  "_shuffle": 0,
+  "_shufflePeriod": 0.5,
+  "_previewStartTime": 98,
+  "_previewDuration": 25,
+  "_songFilename": "song.egg",
+  "_coverImageFilename": "cover.jpg",
+  "_environmentName": "PanicEnvironment",
+  "_customData": {
+    "_editor": "beatmapper",
+    "_editorSettings": {
+      "enabledFastWalls": false,
+      "modSettings": {
+        "customColors": {
+          "isEnabled": true,
+          "colorLeft": "#d8301f",
+          "colorLeftOverdrive": 0,
+          "colorRight": "#cfcc40",
+          "colorRightOverdrive": 0,
+          "envColorLeft": "#c12121",
+          "envColorLeftOverdrive": 0,
+          "envColorRight": "#a7a7a7",
+          "envColorRightOverdrive": 0,
+          "obstacleColor": "#ffffff",
+          "obstacleColorOverdrive": 0
+        },
+        "mappingExtensions": {
+          "isEnabled": false,
+          "numRows": 3,
+          "numCols": 4,
+          "colWidth": 1,
+          "rowHeight": 1
+        }
+      }
+    }
+  },
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "Standard",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "ExpertPlus",
+          "_difficultyRank": 9,
+          "_beatmapFilename": "ExpertPlus.dat",
+          "_noteJumpMovementSpeed": 22,
+          "_noteJumpStartBeatOffset": -0.5,
+          "_customData": {
+            "_editorOffset": 1505,
+            "_requirements": [],
+            "_difficultyLabel": "Lunatic",
+            "_colorLeft": {
+              "r": 0.8470588235294118,
+              "g": 0.18823529411764706,
+              "b": 0.12156862745098039
+            },
+            "_colorRight": {
+              "r": 0.8117647058823529,
+              "g": 0.8,
+              "b": 0.25098039215686274
+            },
+            "_envColorLeft": {
+              "r": 0.7568627450980392,
+              "g": 0.12941176470588237,
+              "b": 0.12941176470588237
+            },
+            "_envColorRight": {
+              "r": 0.6549019607843137,
+              "g": 0.6549019607843137,
+              "b": 0.6549019607843137
+            },
+            "_obstacleColor": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
