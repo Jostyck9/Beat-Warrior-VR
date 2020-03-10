@@ -13,7 +13,7 @@ USTRUCT(BlueprintType)
 struct FSt_Score {
 	GENERATED_BODY()
 
-		UPROPERTY(EditAnyWhere, BluePrintReadWrite, Category = "Struct")
+	UPROPERTY(EditAnyWhere, BluePrintReadWrite, Category = "Struct")
 		int32 score;
 
 	UPROPERTY(EditAnyWhere, BluePrintReadWrite, Category = "Struct")
@@ -21,6 +21,15 @@ struct FSt_Score {
 
 	UPROPERTY(EditAnyWhere, BluePrintReadWrite, Category = "Struct")
 		FString name;
+
+	UPROPERTY(EditAnyWhere, BluePrintReadWrite, Category = "Struct")
+		int32 weapon;
+
+	UPROPERTY(EditAnyWhere, BluePrintReadWrite, Category = "Struct")
+		int32 mode;
+
+	UPROPERTY(EditAnyWhere, BluePrintReadWrite, Category = "Struct")
+		int32 scoreMode;
 };
 
 USTRUCT(BlueprintType)

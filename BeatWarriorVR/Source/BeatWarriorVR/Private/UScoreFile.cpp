@@ -88,6 +88,9 @@ const TArray<FSt_Score>& UScoreFile::generateScoreListFromJson(TSharedPtr<FJsonO
 		scoreToAdd.score = json->GetNumberField(TEXT("score"));
 		scoreToAdd.maxSerie = json->GetNumberField(TEXT("maxSerie"));
 		scoreToAdd.name = json->GetStringField(TEXT("name"));
+		scoreToAdd.mode = json->GetNumberField(TEXT("mode"));
+		scoreToAdd.scoreMode = json->GetNumberField(TEXT("scoreMode"));
+		scoreToAdd.weapon = json->GetNumberField(TEXT("weapon"));
 		_scoreList.Add(scoreToAdd);
 	}
 	return (_scoreList);
