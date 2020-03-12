@@ -70,3 +70,44 @@ bool UAudioManager::isPlaying()
 {
 	return _soundManager->isPlaying();
 }
+
+void UAudioManager::Update()
+{
+	_soundManager->update();
+}
+
+int32 UAudioManager::InitSpectrum_Linear(const int32 maxBars)
+{
+	return _soundManager->initializeSpectrum_Linear(maxBars);
+}
+
+void UAudioManager::GetSpectrum_Linear(TArray<float>& frequencyValues, TArray<float>& frequencyAverageValues, int32 numBars)
+{
+	frequencyValues.Init(0.0, numBars);
+	frequencyAverageValues.Init(0.0, numBars);
+	_soundManager->getSpectrum_Linear(frequencyValues.GetData(), frequencyAverageValues.GetData());
+}
+
+int32 UAudioManager::InitSpectrum_Log(const int32 maxBars)
+{
+	return _soundManager->initializeSpectrum_Log(maxBars);
+}
+
+void UAudioManager::GetSpectrum_Log(TArray<float>& frequencyValues, TArray<float>& frequencyAverageValues, int32 numBars)
+{
+	frequencyValues.Init(0.0, numBars);
+	frequencyAverageValues.Init(0.0, numBars);
+	_soundManager->getSpectrum_Log(frequencyValues.GetData(), frequencyAverageValues.GetData());
+}
+
+void UAudioManager::InitBeatDetector()
+{
+	return _soundManager->initializeBeatDetector();
+}
+
+void UAudioManager::GetBeat(TArray<float>& frequencyValues, TArray<float>& frequencyAverageValues, bool& isBass, bool& isLowM)
+{
+	frequencyValues.Init(0.0, 2);
+	frequencyAverageValues.Init(0.0, 2);
+	_soundManager->getBeat(frequencyValues.GetData(), frequencyAverageValues.GetData(), isBass, isLowM);
+}

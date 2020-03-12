@@ -8,3 +8,6 @@ To compilate the game you need :
 
 To install the plugin, create a folder \Plugins\ inside the BeatWarriorVR folder
 and move the FMODStudio file to install it for the game
+After launching the editor, go to help -> Validate FMOD 
+
+Then you can start from the editor or export it
