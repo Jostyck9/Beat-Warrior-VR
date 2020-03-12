@@ -9,26 +9,10 @@
 			"scoreMode": 1
 		},
 		{
-			"score": 0,
-			"maxSerie": 0,
+			"score": 87,
+			"maxSerie": 4,
 			"name": "A changer",
-			"weapon": 1,
-			"mode": 0,
-			"scoreMode": 0
-		},
-		{
-			"score": 0,
-			"maxSerie": 0,
-			"name": "A changer",
-			"weapon": 0,
-			"mode": 1,
-			"scoreMode": 0
-		},
-		{
-			"score": 0,
-			"maxSerie": 0,
-			"name": "A changer",
-			"weapon": 0,
+			"weapon": 3,
 			"mode": 1,
 			"scoreMode": 0
 		}
