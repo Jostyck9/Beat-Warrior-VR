@@ -1,0 +1,20 @@
+{
+	"scores": [
+		{
+			"score": 653,
+			"maxSerie": 32,
+			"name": "A changer",
+			"weapon": 0,
+			"mode": 1,
+			"scoreMode": 0
+		},
+		{
+			"score": 526,
+			"maxSerie": 14,
+			"name": "A changer",
+			"weapon": 0,
+			"mode": 1,
+			"scoreMode": 0
+		}
+	]
+}
